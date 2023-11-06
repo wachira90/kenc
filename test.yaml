@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: app-secret
+type: Opaque
+data:
+  access_key_cert: ZZZZZXXXXXCCCCCVVVVV
+  secret_key_cert: ENaWxoQj4ctL5o5dVMi9LtywD2uyoDEdF5JeggFH
+  access_key_secret: VVVVVCCCCCXXXXXZZZZZ
+  secret_key_secret: z2bB48P7NUqMoffJ3TUfjXr8TTtaDWd4jTYDuQCs
