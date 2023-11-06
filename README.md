@@ -25,7 +25,7 @@ kenc encode filename.yaml -s
 kenc encode filename1.yaml -o filename2.yaml
 ```
 
-## To decode from base64 to string. The flag -o and -s can also be used here.
+## To decode from base64 to string
 
 ```
 kenc decode filename.yaml
