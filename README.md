@@ -1,4 +1,5 @@
 # kenc
+
 Kubernetes encrypt yaml file 
 
 ## install
@@ -16,12 +17,12 @@ go install github.com/wachira90/kenc
 kenc encode filename.yaml
 ```
 
-## By default the output of that YAML file will be printed to stdout. You can use -o to write the output to another file or -s to save output to the save file.
+## use -s for overwrite or -o for output new file
 
 ```
 kenc encode filename.yaml -s
 
-kenc encode filename.yaml -o filename.yaml
+kenc encode filename1.yaml -o filename2.yaml
 ```
 
 ## To decode from base64 to string. The flag -o and -s can also be used here.
@@ -32,7 +33,7 @@ kenc decode filename.yaml
 
 ## Test
 
-encrypt
+encode
 
 ```
 C:\test\kenc>kenc encode test.yaml
@@ -48,7 +49,7 @@ data:
   secret_key_secret: ejJiQjQ4UDdOVXFNb2ZmSjNUVWZqWHI4VFR0YURXZDRqVFlEdVFDcw==
 ```
 
-decrypt
+decode
 
 ```
 C:\test\kenc>kenc decode enc-test.yaml
