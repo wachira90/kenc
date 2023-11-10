@@ -5,6 +5,16 @@ Kubernetes encrypt base64 yaml file
 ## install
 
 ```
+git clone https://github.com/wachira90/kenc.git
+
+cd kenc
+
+kenc encode test.yaml
+```
+
+### OR
+
+```
 go get -u github.com/wachira90/kenc
 
 go install github.com/wachira90/kenc
