@@ -1,6 +1,6 @@
 # kenc
 
-Kubernetes encrypt yaml file 
+Kubernetes encrypt base64 yaml file 
 
 ## install
 
