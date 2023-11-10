@@ -2,7 +2,7 @@
 
 Kubernetes encrypt base64 yaml file 
 
-## install
+## Quick Install
 
 ```
 git clone https://github.com/wachira90/kenc.git
